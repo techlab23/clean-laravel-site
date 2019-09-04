@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Clean Laravel Page",
+  "version": "1.0.0",
+
+  "description": "Clean laravel website Pages",
+  "short_name": "Clean Laravel Pages",
+  "permissions": ["activeTab", "declarativeContent", "tabs"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://laravel.com/*"],
+      "css": ["override.css"]
+    }
+  ],
+
+  "page_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}

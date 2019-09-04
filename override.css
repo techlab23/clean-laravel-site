@@ -1,0 +1,19 @@
+section.partner_block {
+  display: none;
+}
+
+div.logotype {
+  display: none;
+}
+
+div.footer_content {
+  margin-bottom: 0em;
+}
+
+footer .footer_bg {
+  padding-top: 1.5em !important;
+}
+
+#carbonads {
+  display: none !important;
+}
